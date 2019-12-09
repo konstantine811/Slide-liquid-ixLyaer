@@ -94,8 +94,5 @@ body {
 .liquid-morph-enter, .liquid-morph-leave-to /* .list-leave-active below version 2.1.8 */ {
 	opacity: 0;
 	transform: translateX(10px) scaleX(1.1);
-}
-
-.liquid-morph-enter.carousel-slides, .liquid-morph-leave-to.carousel-slides {
 	filter: blur(5px) invert(35%);
 }
