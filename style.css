@@ -89,7 +89,7 @@ body {
 
 .liquid-morph-enter-active, .liquid-morph-leave-active {
 	transition: all 1.5s;
-	position: absolute;
+	position: fixed;
 }
 .liquid-morph-enter, .liquid-morph-leave-to /* .list-leave-active below version 2.1.8 */ {
 	opacity: 0;
