@@ -13,11 +13,13 @@
 			<button @click="prevImage()" class="btn btn--left">
 				<span class="arrow arrow--prev"></span>
 			</button>
-			<transition name="liquid-morph" tag="div">
-				<div class="carousel-slides" v-for="img in images" v-bind:key="img.id">
-					<img class="carousel-slide-img" :src="img.link" alt="">
-				</div>
-			</transition>
+			<div class="carousel-slides-wrap">
+				<transition name="liquid-morph" tag="div">
+					<div class="carousel-slides" v-for="img in images" v-bind:key="img.id">
+						<img class="carousel-slide-img" :src="img.link" alt="">
+					</div>
+				</transition>
+			</div>
 			<button @click="nextImage()" class="btn btn--right">
 				<span class="arrow arrow--next"></span>
 			</button>

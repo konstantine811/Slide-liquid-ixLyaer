@@ -3,10 +3,6 @@ var app = new Vue({
 	data: {
 		images: [
 			{
-				id: 1,
-				link: './assets/Ellipse1.png'
-			},
-			{
 				id: 2,
 				link: './assets/Layer1.png'
 			},
@@ -28,7 +24,8 @@ var app = new Vue({
 			},
 			{
 				id: 7,
-				link: './assets/Layer8.png'
+				link: './assets/Layer8.png',
+				linkMorphBack: './assets/Layer8-morphBack.png'
 			}
 		]
 	},
