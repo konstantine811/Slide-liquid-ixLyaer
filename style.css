@@ -1,5 +1,5 @@
 :root {
-	--transition-carousel: filter 1s cubic-bezier(0.99,-0.16, 0.58, 1), opacity 2s ease-in, transform 2s ease;
+	--transition-carousel: filter 1.2s cubic-bezier(0.99,-0.16, 0.58, 1), opacity 2.2s ease, transform 2s ease;
 }
 
 body {
@@ -110,6 +110,6 @@ body {
 }
 .liquid-morph-enter, .liquid-morph-leave-to /* .list-leave-active below version 2.1.8 */ {
 	opacity: 0;
-	transform: translateX(10px) scaleX(1.05);
-	filter: blur(4px);
+	transform: translateX(10px);
+	filter: blur(2px);
 }
