@@ -3,29 +3,28 @@ var app = new Vue({
 	data: {
 		images: [
 			{
+				id: 1,
+				link: './assets/image1.png'
+			},
+			{
 				id: 2,
-				link: './assets/Layer1.png'
+				link: './assets/image2.png'
 			},
 			{
 				id: 3,
-				link: './assets/Layer4.png'
+				link: './assets/image3.png'
 			},
 			{
 				id: 4,
-				link: './assets/Layer5.png'
+				link: './assets/image4.png'
 			},
 			{
 				id: 5,
-				link: './assets/Layer6.png'
+				link: './assets/image5.png'
 			},
 			{
 				id: 6,
-				link: './assets/Layer7.png'
-			},
-			{
-				id: 7,
-				link: './assets/Layer8.png',
-				linkMorphBack: './assets/Layer8-morphBack.png'
+				link: './assets/image6.png'
 			}
 		]
 	},
