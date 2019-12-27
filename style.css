@@ -1,5 +1,5 @@
 :root {
-	--transition-carousel: opacity 2s ease-out, transform 3s ease;
+	--transition-carousel: opacity 3s ease-in, transform 3s ease;
 }
 
 body {

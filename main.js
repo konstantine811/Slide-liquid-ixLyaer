@@ -1,6 +1,7 @@
 var app = new Vue({
 	el: '#app',
 	data: {
+		showButtons: false,
 		images: [
 			{
 				id: 1,

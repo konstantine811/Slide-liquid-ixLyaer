@@ -10,7 +10,7 @@
 <body>
 	<div id="app" class="app-bgc">
 		<div class="carousel-wrap">
-			<button @click="prevImage()" class="btn btn--left">
+			<button v-if="showButtons" @click="prevImage()" class="btn btn--left">
 				<span class="arrow arrow--prev"></span>
 			</button>
 			<div class="carousel-slides-wrap">
@@ -21,7 +21,7 @@
 				</transition>
 				<!-- <object class="carousel-info" data="assets/info.svg" type="image/svg+xml"></object> -->
 			</div>
-			<button @click="nextImage()" class="btn btn--right">
+			<button v-if="showButtons" @click="nextImage()" class="btn btn--right">
 				<span class="arrow arrow--next"></span>
 			</button>
 		</div>
